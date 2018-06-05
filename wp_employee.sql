@@ -27,7 +27,7 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `wp_employee` (
-  `id` int(10) NOT NULL,
+  `id` int(10) NOT NULL AUTO_INCREMENT,
   `firstname` varchar(100) CHARACTER SET utf8 NOT NULL,
   `middlename` varchar(100) CHARACTER SET utf8 NOT NULL,
   `lastname` varchar(100) CHARACTER SET utf8 NOT NULL,

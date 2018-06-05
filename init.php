@@ -15,7 +15,7 @@ function employeeDB_options_install() {
     $table_name = $wpdb->prefix . "employee";
     $charset_collate = $wpdb->get_charset_collate();
     $sql = "CREATE TABLE $table_name (
-            `id` int(10) NOT NULL,
+            `id` int(10) NOT NULL AUTO_INCREMENT,
             `firstname` varchar(100) CHARACTER SET utf8 NOT NULL,
             `middlename` varchar(100) CHARACTER SET utf8 NOT NULL,
             `lastname` varchar(100) CHARACTER SET utf8 NOT NULL,
